@@ -2,7 +2,7 @@ import React from "react";
 
 import Service from "../components/Service";
 
-function Home() {
+const Home = () => {
     return (
         <main>
             <div className="service-wrapper">

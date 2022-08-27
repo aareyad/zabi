@@ -1,6 +1,6 @@
 import React from "react";
 
-function Service() {
+const Service = () => {
     return (
         <div className="service-single">
             <h3>Web Design</h3>
