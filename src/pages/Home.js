@@ -7,8 +7,8 @@ const Home = () => {
         <main>
             <div className="service-wrapper">
                 <Service/>
-                <Service/>
-                <Service/>
+                <Service title="Web Development"/>
+                <Service title="Application Development"/>
             </div>
         </main>
     );

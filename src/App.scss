@@ -1,0 +1,17 @@
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+.service-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #efefef;
+  padding: 60px 50px;
+  
+  .service-single {
+    flex: 33.3333% 0 0;
+    max-width: 33.3333%;
+  }
+}

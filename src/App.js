@@ -7,11 +7,11 @@ import Contact from "./pages/Contact";
 
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
-import './App.css';
+import './App.scss';
 
 const App = () => {
     return (
-        <div>
+        <>
             <BrowserRouter>
                 <Header/>
                 <Routes path="/">
@@ -21,7 +21,7 @@ const App = () => {
                 </Routes>
                 <Footer/>
             </BrowserRouter>
-        </div>
+        </>
     );
 }
 
